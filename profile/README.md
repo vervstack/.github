@@ -1,24 +1,44 @@
 # Verv
 
+---
+
+Verv is a lightweight container management system based on docker containers.
+
 ## Velez
 
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/godverv/Velez/push-to-master.yaml?style=flat&logo=github&link=https%3A%2F%2Fgithub.com%2Fgodverv%2FVelez%2Factions%2Fworkflows%2Fpush-to-master.yaml)](https://github.com/godverv/Velez/releases)
+---
+
 [![Docker Image Version (tag)](https://img.shields.io/docker/v/godverv/velez/latest?logo=docker)](https://hub.docker.com/r/godverv/velez/tags)
 
-Node management system
+Velez is an application to manage a node on a physical server  
 
 ## Matreshka
-Configuration manager
+Matreshka is a Boy (based on yaml) configuration manager  
 
-### Client
+Matreshka allows you to specify
+- Resources for your application (postgres, redis etc.)
+- Server API of your application (grpc, rest etc.)
+- Basic verv configuration (name, startup timeout, version)
+- Environment variables (for more specific configuration)
 
-Golang application configurator
+### matreshka-be (Configuration server)
+
+---
+
+[![Docker Image Version (tag)](https://img.shields.io/docker/v/godverv/matreshka-be/latest?logo=docker)](https://hub.docker.com/r/godverv/matreshka-be/tags)
+
+Server that will store your configurations and allow you to modify it though api
+
+### Matreshka (Golang configuration package)
+
+---
+
+Golang package that will automatically parse:
+- Matreshka Api
+- Environment variables
+- Configuration files
+
+And merge them into one configuration (priority by given order)
 
 [![GitHub Tag](https://img.shields.io/github/v/tag/godverv/Matreshka)](https://github.com/godverv/Matreshka/releases/latest)
 
-### Server
-
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/godverv/matreshka-be/push-to-master.yaml?style=flat&logo=github&link=https%3A%2F%2Fgithub.com%2Fgodverv%2FVelez%2Factions%2Fworkflows%2Fpush-to-master.yaml)](https://github.com/godverv/Velez/releases)
-[![Docker Image Version (tag)](https://img.shields.io/docker/v/godverv/matreshka-be/latest?logo=docker)](https://hub.docker.com/r/godverv/matreshka-be/tags)
-
-Configuration management system
