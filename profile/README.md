@@ -1,12 +1,8 @@
 # Verv
 
----
-
 Verv is a lightweight container management system based on docker containers.
 
 ## Velez
-
----
 
 ![Docker Image Version](https://img.shields.io/docker/v/godverv/velez?style=for-the-badge&logo=docker&label=Velez%20image&labelColor=white&color=blue)
 
@@ -15,7 +11,7 @@ Verv is a lightweight container management system based on docker containers.
 Velez is an application to manage a node on a physical server  
 
 ## Matreshka
-Matreshka is a Boy (based on yaml) configuration manager  
+Matreshka is a boy (based on yaml) configuration manager  
 
 Matreshka allows you to specify
 - Resources for your application (postgres, redis etc.)
