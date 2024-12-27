@@ -42,3 +42,4 @@ And merge them into one configuration (priority by given order)
 [![GitHub Tag](https://img.shields.io/github/v/tag/godverv/Matreshka?style=for-the-badge&logo=github&label=Matreshka%20version&labelColor=gray&color=green)](https://github.com/godverv/Matreshka/releases/latest)
 
 
+Active "in-development" features can be found at dashboard [here](https://youtrack.redsock.online/agiles/131-21/current)
