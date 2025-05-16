@@ -23,7 +23,7 @@ Matreshka allows you to specify
 
 ---
 
-[![Docker Image Version](https://img.shields.io/docker/v/godverv/matreshka-be?style=for-the-badge&logo=docker&label=%20matreshka-be%20image&labelColor=white&color=blue)](https://hub.docker.com/r/godverv/matreshka-be)
+[![Docker Image Version](https://img.shields.io/docker/v/vervstack/matreshka?style=for-the-badge&logo=docker&label=%20matreshka%20image&labelColor=white&color=blue)](https://hub.docker.com/r/vervstack/matreshka)
 
 
 Server that will store your configurations and allow you to modify it though api
